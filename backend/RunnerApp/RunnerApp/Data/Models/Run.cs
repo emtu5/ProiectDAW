@@ -1,6 +1,13 @@
-﻿namespace RunnerApp.Data.Models
+﻿using RunnerApp.Data.Models.Base;
+
+namespace RunnerApp.Data.Models
 {
-    public class Run
+    public class Run : BaseEntity
     {
+        public required int Time;
+        public required User User { get; set; }
+        public Guid UserId { get; set; }
+        public required Category Category { get; set; }
+        public Guid CategoryId { get; set; }
     }
 }
