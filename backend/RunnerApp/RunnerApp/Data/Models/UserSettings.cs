@@ -4,7 +4,8 @@ namespace RunnerApp.Data.Models
 {
     public class UserSettings : BaseEntity
     {
-        // TODO: think of actual user settings
+        public required string UsernameColor { get; set; }
+        public string? Country { get; set; }
         public required User User { get; set; }
         public Guid UserId { get; set; }
     }
