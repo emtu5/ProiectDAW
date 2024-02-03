@@ -19,11 +19,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
     <Folder Include="Data\DTOs\" />
     <Folder Include="Data\Enums\" />
-    <Folder Include="Repositories\" />
-    <Folder Include="Services\" />
+    <Folder Include="Repositories\GenericRepository\" />
+    <Folder Include="Repositories\GameRepository\" />
+    <Folder Include="Repositories\UserRepository\" />
+    <Folder Include="Services\GameService\" />
+    <Folder Include="Services\UserService\" />
   </ItemGroup>
 
 </Project>
