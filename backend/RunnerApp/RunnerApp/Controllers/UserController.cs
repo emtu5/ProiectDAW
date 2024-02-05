@@ -33,11 +33,11 @@ namespace RunnerApp.Controllers
             return Ok(await _userService.DeleteUserByUsername(username));
         }
 
-        /*[HttpPost]
+        [HttpPost]
         public async Task<IActionResult> AddUser(UserDTO userDto)
         {
             return Ok(await _userService.AddUser(userDto));
-        }*/
+        }
 
         [HttpPut]
         public async Task<IActionResult> ChangeUserByUsername()

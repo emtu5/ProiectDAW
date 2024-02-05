@@ -8,6 +8,6 @@ namespace RunnerApp.Services.UserService
         public Task<List<User>> GetUsers();
         public Task<User> GetUserByUsername(string username);
         public Task<User> DeleteUserByUsername(string username);
-        /*public Task<User> AddUser(UserDTO userDto);*/
+        public Task<User> AddUser(UserDTO userDto);
     }
 }
